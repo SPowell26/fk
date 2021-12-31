@@ -1,0 +1,112 @@
+Body{
+Color: #ff0dbf;
+Text-shadow: 3px 3px 5px #000;
+Font-family: Verdana, arial, geneva, arial lack
+Font-weight: heavy;
+Background-color: white;
+Font-size: 24px;
+}
+
+H1{
+Font-size: 200%;
+Text-align: center;
+Font-weight:normal;
+}
+
+Form{
+	background-color: #39ff14;
+	width 100px;
+	height: 44px;
+	border-radius:5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+Input{
+	all: unset;
+	font: 16px system-ui;
+	color: #000;
+	height: 100%;
+	width: 100%;
+	padding: 6px 10px;
+}
+
+Button{
+	all: unset;
+	cursor: pointer;
+	width: 44px;
+	height: 44px;
+}
+
+Svg{
+	color: #000;
+	fill: currentColor;
+	width: 24px;
+	height: 24px;
+	padding: 10px;
+}
+
+
+
+*{
+
+	box-sizing: border-box;
+}
+
+.gallery{
+	border:1px solid #ccc;
+}
+
+.gallery img{
+	width:100%;
+	height auto;
+}
+
+.des{
+	padding:15px;
+	text-align: center;
+}	
+
+.responsive{
+	padding 0 6px;
+	float:left;
+	width:25%;
+}
+
+.topnav{
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: ff6ec7;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover{
+	color: yellow;
+	text-decoration: underline;"
+}
+
+.topnav input[type=text]{
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+@media only screen and (max-width:700px_){
+	.responsive{
+		width:50%;
+		margin:6px 0;
+		}
+	
+	
